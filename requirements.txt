@@ -1,0 +1,36 @@
+//create virtual envt for a project folder
+python -m venv project folder\venv
+
+
+
+//now set the interpreter path to current folder python.exe
+Ctrl+Shift+P and choose interpreter path and locate python.exe in above folder
+
+
+
+//now install each library under project folder
+pip install <lib name>
+
+
+//create your project script files(.py files) and test the code
+
+
+
+//now we will create bunch of libs needed for scripts to run in requirement.txt and it will install all required libs in single go instead one by one
+pip install -r requirements.txt
+
+
+
+//create module from Python files
+
+
+
+
+
+!pip install tensorflow
+!pip install numpy
+!pip install matplotlib 
+!pip install opencv-python
+!pip install cvzone
+!pip install mediapipe
+!pip install keras
